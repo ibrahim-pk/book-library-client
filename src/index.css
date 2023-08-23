@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* login form */
+.login-form {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121312;
+    margin: 0;
+  }
+  
+  .login-form .login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width:30%;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 15px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* register form */
+  .register-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  .register-form .signup-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 30%;
+  }
+  
+  .register-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .register-form input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .register-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styles for input focus */
+  .register-form input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* home  */
+  .homescreen{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+    height: 80vh;
+  }
+  .genre button:hover{
+       background-color: goldenrod;
+       padding: 4px;
+       border-radius: 5px;
+  } 
+
+  .searchFilter{
+    border-right:1px solid black ;
+    padding-right: 20px;
+    height: 80vh;
+  }
+
+  .wishList{
+    height: 80vh;
+  }
